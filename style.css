@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_custom{
+    position: static;
+    top: 0;
+}
+.button_custom{
+    margin-top: 5rem;
+}
+
+.custom_card{
+    width: 16rem;
+    padding: .5rem;
+    
+}
+.custom_card img{
+    width: 100%;
+    margin: 0 auto;
+}
+.card-text i{
+    color: teal;
+}
+.custom_card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.inner{
+    overflow: hidden;
+    border-radius: .3rem;
+}
+.inner img{
+    transition: all 1s ease;  
+}
+.custom_card:hover .inner img{
+    transform: scale(1.3);
+}
+.color_style{
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(83,183,96,1) 51%, rgba(252,70,144,1) 100%);
+}
+.color_style1{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 48%, rgba(121,9,9,1) 91%);
+}
+.color_style2{
+    background: linear-gradient(90deg, rgba(63,250,251,1) 0%, rgba(82,70,252,1) 47%, rgba(83,183,96,1) 100%);
+}
+.color_style3{
+    background: linear-gradient(90deg, rgba(251,63,63,1) 0%, rgba(10,132,34,1) 50%, rgba(183,83,83,1) 100%);
+}
+.table_box{
+    background: rgba(61, 43, 43, 0.877);
+    padding: .8rem .4rem .1rem .4rem;
+}
